@@ -126,7 +126,8 @@ body {
     color: #000;
 }
 
-/*Main*/
+/*main*/
+/*section*/
 
 .section {
     padding-top: 129px;
@@ -170,7 +171,7 @@ body {
     margin-right: 0;
 }
 
-.section_img {
+.section-img_big {
     width: 740px;
 }
 
@@ -179,4 +180,128 @@ body {
     line-height: 25px;
     color: #000000;
     max-width: 470px;
+}
+
+/*section-brand*/
+
+.section-brand {
+    background-color: #FF9C7D;
+    padding-top: 108px;
+    padding-bottom: 104px;
+    margin-bottom: 90px;
+}
+
+.container-section-brand {
+    flex-direction: column;
+}
+
+.section-title_second {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-brand-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/*section-control*/
+
+.section-control {
+    padding-bottom: 250px;
+    display: flex;
+}
+
+.section-control:last-child {
+    padding-bottom: 150px;
+}
+
+.section-control-inner {
+    align-self: center;
+    padding-right: 165px;
+}
+
+.section-desc {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-desc_link {
+    color: #000000;
+}
+
+.section_link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.container-section-control_revers {
+    flex-direction: row-reverse;
+}
+
+.section-control-inner_margin {
+    margin-left: 138px;
+    padding-right: 70px;
+}
+
+.section-img {
+    width: 632px;
+}
+
+/*section-main-info*/
+
+.section-main-info {
+    background-color: #FFF8E4;
+    padding-top: 120px;
+    padding-bottom: 147px;
+}
+
+.section-title_second:nth-last-child(2) {
+    max-width: 1290px;
+}
+
+.section-main-info_inner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 291px;
+    align-items: center;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+
+.container-section-main-info_colum {
+    flex-direction: column;
+}
+
+.container-section-main-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-main-info_link {
+    width: 160px;
+}
+
+.section-main-info_title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    padding-top: 23px;
+    padding-bottom: 23px;
 }
