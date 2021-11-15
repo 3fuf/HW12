@@ -518,19 +518,20 @@ body {
 /*footer*/
 
 .footer {
+    background-color: #EEEEEE;
     padding-top: 92px;
     padding-bottom: 43px;
 }
 
 .container-footer {
-    justify-content: normal;
+    margin-bottom: 95px;
 }
 
 .container-left-footer {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-    margin-right: 140px;
+    margin-right: 140px;s
 }
 
 .footer-title {
@@ -567,11 +568,15 @@ body {
     max-width: 290px;
 }
 
-.container-right-footer {
-}
-
 .footer-nav {
     display: flex;
+}
+
+.footer-nav-inner {
+    margin-right: 57px;
+}
+.footer-nav-inner:last-child {
+    margin-right: 0;
 }
 
 .footer-nav-title {
@@ -579,16 +584,44 @@ body {
     font-size: 20px;
     line-height: 25px;
     color: #000000;
+    margin-bottom: 21px;
 
 }
 
 .footer-nav-des {
+    display: block;
     font-size: 15px;
     line-height: 15px;
     color: #000000;
     text-decoration: none;
+    margin-bottom: 15px;
+    width: 170px;
 }
 
-.footer-nav-subtitle {
+/*footer-copyrigh*/
+
+.footer-copyrigh {
+    border-top: 1px solid #000;
+    padding-top: 47px;
+}
+
+.container-left-footer-copyrigh {
     display: flex;
+    align-items: center;
+}
+
+.footer-copyrigh-logo {
+    width: 90px;
+}
+
+.footer-copyrigh-logo_link {
+    width: 100%;
+}
+
+.footer-copyrigh-desc {
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 14px;
+    max-width: 300px;
 }
