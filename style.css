@@ -353,6 +353,12 @@ body {
 
 }
 
+.section-desc_link_desc_second {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
 /*section-about*/
 
 .section-about {
@@ -379,3 +385,5 @@ body {
 .section-about-title {
     max-width: 112px;
 }
+
+/*section-about-best*/
