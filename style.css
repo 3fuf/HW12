@@ -98,8 +98,7 @@ body {
 .btn {
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 0;
-    width: 120px;
-    padding: 0;
+    padding: 0 35px;
     background-color: rgba(0, 0, 0, 0);
     font-family: 'Graphik LCG', sans-serif;
     font-weight: 600;
@@ -119,6 +118,7 @@ body {
     background-color: #FF6336;
     color: #fff;
     margin-right: 0;
+    padding: 0 22px;
 }
 
 .btn_orange:hover {
@@ -164,11 +164,15 @@ body {
 .btn-section {
     line-height: 60px;
     margin-right: 10px;
-    width: 160px;
+    padding: 0 41px;
 }
 
 .btn-section:first-child {
     margin-right: 0;
+}
+
+.btn:nth-last-child(2) {
+    padding: 0 29px;
 }
 
 .section-img_big {
@@ -449,4 +453,64 @@ body {
     line-height: 25px;
     letter-spacing: 0.75px;
     color: #000000;
+}
+
+.section-about-integrations {
+    padding: 165px 0 162px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-about-integrations-title {
+    margin-bottom: 0;
+    max-width: 791px;
+    text-align: center;
+}
+
+.section-about-integrations-subtitle {
+    margin-bottom: 25px;
+    max-width: 539px;
+    text-align: center;
+}
+
+.section-about-integrations-pic {
+    margin-bottom: 32px;
+}
+
+.section-about-integrations-pic_img {
+    max-width: 1023px;
+}
+
+.btn:last-child {
+    padding: 0 20px;
+}
+
+/*section-about-sell*/
+
+.section-about-sell {
+    padding: 119px 0 161px;
+    background-color: #FF9C7D;
+}
+
+.container-section-about-sell {
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title-section-about-sell {
+    margin-bottom: 29px;
+}
+
+.btn.btn_orange.btn_black {
+    background-color: #000;
+    font-size: 17px;
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-top: 29px;
+}
+
+.btn.btn_orange.btn_black:hover {
+    background-color: #fff;
+    color: #000;
 }
