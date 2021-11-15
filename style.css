@@ -225,7 +225,7 @@ body {
 
 .section-control-inner {
     align-self: center;
-    padding-right: 165px;
+    padding-right: 140px;
 }
 
 .section-desc {
@@ -240,12 +240,20 @@ body {
     color: #000000;
 }
 
+.section-desc_link:hover {
+    color: #FF6336;
+}
+
 .section_link {
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #000000;
+}
+
+.section_link:hover {
+    color: #FF6336;
 }
 
 .container-section-control_revers {
@@ -269,14 +277,18 @@ body {
     padding-bottom: 147px;
 }
 
-.section-title_second:nth-last-child(2) {
+.section-main-info:nth-last-child(1) {
+    background-color: #ffffff;
+}
+
+.section-title_second:nth-last-child(-n+2) {
     max-width: 1290px;
 }
 
 .section-main-info_inner {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-around;
     max-width: 291px;
     align-items: center;
     margin-top: 75px;
@@ -304,4 +316,66 @@ body {
     color: #000000;
     padding-top: 23px;
     padding-bottom: 23px;
+}
+
+
+/*section-main-info_second*/
+
+.section-main-info_second {
+    padding-top: 154px;
+    padding-bottom: 217px;
+}
+
+.section-main-info_link_second {
+    height: 201px;
+}
+
+.section-main-info_inner_second {
+    align-items: flex-start;
+    max-width: 409px;
+    margin-right: 0;
+}
+
+.section-main-info_title_second {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-top: 49px;
+    margin-bottom: 34px;
+}
+
+.section-main-info_desc_second {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 25px;
+
+}
+
+/*section-about*/
+
+.section-about {
+    background-color: #C9E8F2;
+    padding-top: 53px;
+    padding-bottom: 105px;
+}
+
+.section-about-article {
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    max-width: 895px;
+    margin-bottom: 23px;
+}
+
+.section-about-desc {
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.section-about-title {
+    max-width: 112px;
 }
