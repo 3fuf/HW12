@@ -444,8 +444,12 @@ body {
 }
 
 .section-about-best-icon-container {
-    max-width: 128px;
+    width: 128px;;
     margin-right: 70px;
+}
+
+.section-about-best-icon-container:last-child {
+    width: 150px;
 }
 
 .section-about-best-icon-container:last-child {
@@ -453,12 +457,18 @@ body {
 }
 
 .section-about-best-icon-container_first {
-    max-width: 35px;
+    width: 35px;
+    height: 35px;
     margin-bottom: 20px;
 }
 
+.section-about-best-icon-container_img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
 .section-about-best-icon-container_second {
-    width: 128px;
+    width: 150px;
 }
 
 .section-about-best-icon-container_stars {
