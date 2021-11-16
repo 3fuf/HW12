@@ -509,10 +509,12 @@ body {
 
 .section-about-integrations-pic {
     margin-bottom: 32px;
+    max-width: 1023px;
 }
 
+
 .section-about-integrations-pic_img {
-    max-width: 1023px;
+    width: 100%;
 }
 
 .btn:last-child {
