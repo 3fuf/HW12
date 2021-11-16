@@ -353,6 +353,10 @@ body {
     height: 201px;
 }
 
+.section-main-info_link_images {
+    width: 100%;
+}
+
 .section-main-info_inner_second {
     align-items: flex-start;
     max-width: 409px;
