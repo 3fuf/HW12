@@ -301,6 +301,7 @@ body {
 
 .section-title_second:nth-last-child(-n+2) {
     max-width: 1290px;
+    margin-bottom: 79px;
 }
 
 .section-main-info_inner {
@@ -309,7 +310,7 @@ body {
     justify-content: flex-start;
     max-width: 288px;
     align-items: center;
-    margin-top: 75px;
+    margin-bottom: 75px;
     margin-right: 50px;
 }
 
@@ -347,6 +348,7 @@ body {
 /*section-main-info_second*/
 
 .section-main-info_second {
+    background-color: #fff;
     padding-top: 154px;
     padding-bottom: 217px;
 }
