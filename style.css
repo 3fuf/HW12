@@ -60,10 +60,6 @@ body {
     align-items: center;
 }
 
-.logo:hover {
-    filter: drop-shadow(0 0 2px #FF6336);
-}
-
 .nav {
     display: flex;
     align-items: center;
@@ -232,10 +228,6 @@ body {
 
 .section-brand-content_link_img {
     width: 100%;
-}
-
-.section-brand-content_link_img:hover {
-    filter: drop-shadow(0 0 3px #fff);
 }
 
 /*section-control*/
