@@ -252,6 +252,7 @@ body {
     color: #000000;
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 520px;
 }
 
 .section-desc_link {
@@ -448,7 +449,7 @@ body {
     font-size: 35px;
     line-height: 50px;
     color: #000000;
-    margin-right: 241px;
+    margin-right: 124px;
 }
 
 .container-right-section-about-best {
