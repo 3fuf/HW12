@@ -312,11 +312,12 @@ body {
     align-items: center;
     margin-bottom: 75px;
     margin-right: 50px;
+    margin-left: 50px;
 }
 
-.section-main-info_inner:nth-child(3n) {
+/*.section-main-info_inner:nth-child(3n) {
     margin-right: 0;
-}
+}*/
 
 .container-section-main-info_colum {
     flex-direction: column;
@@ -324,8 +325,9 @@ body {
 
 .container-section-main-info {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .section-main-info_link {
