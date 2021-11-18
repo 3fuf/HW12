@@ -300,7 +300,7 @@ body {
     background-color: #ffffff;
 }
 
-.section-title_second:nth-last-child(-n+2) {
+.section-title_second_m {
     max-width: 1290px;
     margin-bottom: 79px;
 }
@@ -315,10 +315,6 @@ body {
     margin-right: 50px;
     margin-left: 50px;
 }
-
-/*.section-main-info_inner:nth-child(3n) {
-    margin-right: 0;
-}*/
 
 .container-section-main-info_colum {
     flex-direction: column;
