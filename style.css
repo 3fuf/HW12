@@ -108,7 +108,11 @@ body {
     cursor: pointer;
 }
 
-.btn-a {
+.btn-a:first-child {
+    margin-right: 10px;
+}
+
+.btn-a:nth-child(2) {
     margin-right: 10px;
 }
 
@@ -202,7 +206,6 @@ body {
     background-color: #FF9C7D;
     padding-top: 108px;
     padding-bottom: 104px;
-    margin-bottom: 90px;
 }
 
 .container-section-brand {
@@ -231,6 +234,10 @@ body {
 }
 
 /*section-control*/
+
+.section-control_p {
+    padding-top: 90px;
+}
 
 .section-control {
     padding-bottom: 250px;
@@ -359,9 +366,6 @@ body {
     padding-bottom: 217px;
 }
 
-.section-main-info_link_second {
-}
-
 .section-main-info_link_images {
     height: 201px;
 }
@@ -386,7 +390,10 @@ body {
     line-height: 30px;
     color: #000000;
     margin-bottom: 25px;
+}
 
+.section-about-sell .section-main-info_desc_second {
+    margin-bottom: 54px;
 }
 
 
@@ -548,7 +555,6 @@ body {
     font-size: 17px;
     padding-left: 39px;
     padding-right: 39px;
-    margin-top: 29px;
 }
 
 .btn.btn_orange.btn_black:hover {
